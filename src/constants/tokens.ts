@@ -32,6 +32,7 @@ export const USDC_GOERLI = new Token(
   'USDC',
   'USD//C'
 )
+
 export const USDC_KOVAN = new Token(
   SupportedChainId.KOVAN,
   '0x31eeb2d0f9b6fd8642914ab10f4dd473677d80df',
@@ -102,6 +103,13 @@ export const AMPL = new Token(
   'AMPL',
   'Ampleforth'
 )
+export const GODZ = new Token(
+  SupportedChainId.MAINNET,
+  '0x1068a889fd7151fb2ca9d98d268b0d0cd623fc2f',
+  18,
+  'GODZ',
+  'GODZ'
+)
 export const DAI = new Token(
   SupportedChainId.MAINNET,
   '0x6B175474E89094C44Da98b954EedeAC495271d0F',
@@ -160,6 +168,13 @@ export const DAI_POLYGON = new Token(
   18,
   'DAI',
   'Dai Stablecoin'
+)
+export const GODZ_POLYGON = new Token(
+  SupportedChainId.POLYGON,
+  '0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063',
+  18,
+  'GODZ',
+  'GODZ Stablecoin'
 )
 export const USDT_POLYGON = new Token(
   SupportedChainId.POLYGON,
@@ -358,7 +373,6 @@ export const USDT_BNB_CHAIN = new Token(
   'USDT',
   'USDT'
 )
-
 export const ETH_BNB_CHAIN = new Token(
   SupportedChainId.BNB,
   '0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
@@ -422,7 +436,20 @@ export const DAI_BASE = new Token(
   'DAI',
   'Dai Stablecoin'
 )
-
+export const GODZ_BASE = new Token(
+  SupportedChainId.BASE,
+  '0x50c5725949a6f0c72e6c4a641f24049a917db0cb',
+  18,
+  'GODZ',
+  'Godz Stablecoin'
+)
+export const GODZ_BNB_CHAIN = new Token(
+  SupportedChainId.BNB,
+  '0x1AF3F329e8BE154074D8769D1FFa4eE058B1DBc3',
+  18,
+  'DAI',
+  'DAI'
+)
 function isBnbChain(chainId: number): chainId is SupportedChainId.BNB {
   return chainId === SupportedChainId.BNB
 }
