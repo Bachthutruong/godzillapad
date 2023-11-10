@@ -48,6 +48,7 @@ function Fixture() {
       '0x1D9Cd50Dde9C19073B81303b3d930444d11552f7',
       '0x0dA5533d5a9aA08c1792Ef2B6a7444E149cCB0AD',
       '0xE6abE059E5e929fd17bef158902E73f0FEaCD68c',
+      '0x1068a889fd7151fb2ca9d98d268b0d0cd623fc2f',
     ],
   })
 
