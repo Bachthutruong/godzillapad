@@ -10,7 +10,6 @@
 
 # dependency management
 package-lock.json
-/node_modules
 
 # builds
 /cache
