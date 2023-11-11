@@ -10,7 +10,7 @@
 
 # dependency management
 package-lock.json
-
+yarn.lock
 # builds
 /cache
 /cosmos-export
