@@ -10,7 +10,7 @@
 
 # dependency management
 package-lock.json
-yarn.lock
+node_modules
 # builds
 /cache
 /cosmos-export
@@ -38,3 +38,5 @@ notes.txt
 /src/__generated__/*
 !/src/__generated__/.gitkeep 
 node_modules
+
+.vercel
